@@ -1,0 +1,29 @@
+body{
+    background: burlywood;
+}
+.section1{
+   /* The image used */
+  background-image: url("images/desktop/image-header.jpg");
+
+    min-height: 480px;
+    width: 100%;
+     /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 206px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar .right-menu{
+    float: right;
+}
