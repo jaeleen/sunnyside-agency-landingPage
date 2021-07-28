@@ -16,14 +16,25 @@ body{
     /* Needed to position the navbar */
     position: relative;
 }
+.navbar{
+    background: none;
+}
 .navbar a{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 206px;
+    padding-right: 26px;
     text-decoration: none;
     font-size: 17px;
 }
 .navbar .right-menu{
     float: right;
+}
+.navbar .left-menu{
+    float: left;
+}
+.header-message{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
 }
