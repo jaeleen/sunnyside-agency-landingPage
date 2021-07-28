@@ -1,6 +1,12 @@
-body{
-    background: burlywood;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
+
+/* Section 1 style begins */
+
 .section1{
    /* The image used */
   background-image: url("images/desktop/image-header.jpg");
@@ -38,3 +44,22 @@ body{
     padding-top: 50px;
     text-align: center;
 }
+
+/* Section 1 style ends */
+
+
+/* Section 2 style begins */
+.section2{
+    width: 100%;
+    background:ivory;
+    margin: auto;
+}
+
+.section2 .box1{
+    width: 1440px;
+    height:200px;
+    float: left;
+    text-align: justify;
+}
+
+/* Section 2 style ends */
