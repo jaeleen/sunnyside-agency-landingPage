@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Section 1 style begins */
@@ -49,17 +51,15 @@
 
 
 /* Section 2 style begins */
-.section2{
-    width: 100%;
-    background:ivory;
-    margin: auto;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+}
+.box1 h1 p{
+    position: absolute;
 }
 
-.section2 .box1{
-    width: 1440px;
-    height:200px;
-    float: left;
-    text-align: justify;
+.box2{
 }
-
 /* Section 2 style ends */
