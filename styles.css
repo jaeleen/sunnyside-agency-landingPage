@@ -42,34 +42,52 @@
     float: left;
 }
 .header-message{
+
+    margin-top: 0;
     font-family: 'Fraunces', serif;
-    /* font-family: 'Barlow', sans-serif; */
     color: white;
-    padding-top: 50px;
+    padding: 100px;
     text-align: center;
+
+    /* background-color: burlywood; */
+
 }
 
 /* Section 1 style ends */
 
-
 /* Section 2 style begins */
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0;
+
+.section2{
+    margin: 0;    
 }
-.box1 h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.container{
+width: 50%;
+float:left;
+padding: 0px;
+}
+.text-container{
+    width: 400px;
+    height: 300px;
+    /* background-color: teal; */
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container-header{
+    font-size: 18px;
+    text-align: left;
+    padding-top: 50px;
+    color: #23303E;
     font-family: 'Fraunces', serif;
 }
-
-.box2 p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#brand{
+    text-align: left;
+}
+.container-paragraph{
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: justify;
     font-family: 'Barlow', sans-serif;
-
 }
 /* Section 2 style ends */
