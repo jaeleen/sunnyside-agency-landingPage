@@ -44,6 +44,7 @@
 .header-message{
 
     margin-top: 0;
+    padding: 0;
     font-family: 'Fraunces', serif;
     color: white;
     padding: 100px;
@@ -52,6 +53,13 @@
     /* background-color: burlywood; */
 
 }
+.container img{
+    border:0;
+    outline:none !important;
+    object-fit: cover;
+}
+
+
 
 /* Section 1 style ends */
 
@@ -67,7 +75,7 @@ float:left;
 padding: 0px;
 }
 .text-container{
-    width: 400px;
+    width: 450px;
     height: 300px;
     /* background-color: teal; */
     margin: auto;
@@ -84,10 +92,123 @@ padding: 0px;
 #brand{
     text-align: left;
 }
+.more{
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    padding-top: 50px;
+    color: #23303E;
+    text-decoration: underline;
+}
 .container-paragraph{
     padding-top: 30px;
+    color: #5A636C;
     font-size: 18px;
-    text-align: justify;
+    font-weight: 200;
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.8rem;
+}
+.img-container{
+    position: relative;
+    width: 50%;
+    float:left;
+    padding: 0px;
+    text-align: center;
+    color: #25564B;
+    font-family: 'Fraunces', serif;
+}
+
+.containerheader{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.containerparagraph{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+}
+
+/* Section 2 style ends */
+
+
+/* Section 3 style begins */
+.section3{
+    /* background-color: cadetblue; */
+    min-height: 480px;
+    width: 100%;
+    text-align: center;
+}
+
+.section3 img{
+    border-radius: 50%;
+}
+.section3 .header{
+    text-align: center;
+    padding-top: 80px;
+    color: #A7ABAE;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.6em;
+    font-size: 10px;
+}
+
+.client1{
+    padding: 50px;
+    width: 400px;
+    height: 480px;
+    float:left;
+    /* padding: 50px;
+    margin-left: 20px; */
+    /* background-color: burlywood; */
+}
+.client2{
+    padding: 50px;
+
+    display: inline-block;
+    margin: 0 auto;
+    width: 400px;
+    height: 480px;
+}
+.client3{
+    padding: 50px;
+    width: 400px;
+    height: 480px;
+    float:right;
+    /* padding: 50px;
+    margin-left: 20px; */
+    /* background-color: burlywood; */
+}
+
+.section3 h3{
+    padding-top: 40px;
+}
+
+.section3 p{
+    padding-top:50px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.6em;
+    color: #5A636C;
     font-family: 'Barlow', sans-serif;
 }
-/* Section 2 style ends */
+
+.title{
+    padding-top: 5px;
+}
+/* Section 3 style ends */
+
+/* Section 4 style begins */
+.column{
+    width: 25%;
+    float:left;
+    padding: 0px;
+}
+/* Section 4 style ends */
+
+/* Footer begins */
+.footer{
+    margin-top: 0;
+    background-color: #458C7E;
+}
+/* Footer ends */
