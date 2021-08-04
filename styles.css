@@ -25,7 +25,13 @@
     position: relative;
 }
 .navbar{
+    padding-top: 20px;
     background: none;
+}
+.navbar h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 }
 .navbar a{
     float: left;
@@ -33,7 +39,8 @@
     text-align: center;
     padding-right: 26px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
 }
 .navbar .right-menu{
     float: right;
@@ -42,14 +49,13 @@
     float: left;
 }
 .header-message{
-
     margin-top: 0;
     padding: 0;
     font-family: 'Fraunces', serif;
     color: white;
     padding: 100px;
     text-align: center;
-
+    letter-spacing: 0.8em;
     /* background-color: burlywood; */
 
 }
@@ -135,6 +141,7 @@ padding: 0px;
 
 /* Section 3 style begins */
 .section3{
+    margin: 0;
     /* background-color: cadetblue; */
     min-height: 480px;
     width: 100%;
@@ -182,6 +189,8 @@ padding: 0px;
 
 .section3 h3{
     padding-top: 40px;
+    font-family: 'Fraunces', serif;
+    color: #23303E;
 }
 
 .section3 p{
@@ -193,7 +202,7 @@ padding: 0px;
     font-family: 'Barlow', sans-serif;
 }
 
-.title{
+.client-title p{
     padding-top: 5px;
 }
 /* Section 3 style ends */
@@ -208,6 +217,7 @@ padding: 0px;
 
 /* Footer begins */
 .footer{
+    text-align: center;
     margin-top: 0;
     background-color: #458C7E;
 }
