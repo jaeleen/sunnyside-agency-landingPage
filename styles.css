@@ -222,3 +222,12 @@ padding: 0px;
     background-color: #458C7E;
 }
 /* Footer ends */
+
+
+/* responsive media querry start */
+@media(max-width: 375px) {
+    .container .container-paragraph{
+        width: 100%;
+    }
+
+}
