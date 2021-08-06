@@ -236,9 +236,26 @@ padding: 0px;
         color: white;
         padding: 50px;
         text-align: center;
-        letter-spacing: 0.2em;
-        /* background-color: burlywood; */
-    
+        letter-spacing: 0.2em;    
+    }
+    .section2{
+        display: flex; 
+        flex-flow: column;
+    }
+    #transform-img{
+        order: 2;
+    }
+    #transform-text {
+        order: 4;
+    }
+    #standout-text {
+        order: 3;
+    }
+    #standout-img {
+        order: 1;
+    }
+    .navbar{
+        display: none;
     }
 
   }
