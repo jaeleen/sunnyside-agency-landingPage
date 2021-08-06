@@ -243,17 +243,18 @@ padding: 0px;
         flex-flow: column;
     }
     #transform-img{
-        order: 2;
-    }
-    #transform-text {
-        order: 4;
-    }
-    #standout-text {
-        order: 3;
-    }
-    #standout-img {
         order: 1;
     }
+    #transform-text {
+        order: 2;
+    }
+    #standout-img {
+        order: 3;
+    }
+    #standout-text {
+        order: 4;
+    }
+   
     .navbar{
         display: none;
     }
