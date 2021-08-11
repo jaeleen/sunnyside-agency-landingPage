@@ -258,5 +258,20 @@ padding: 0px;
     .navbar{
         display: none;
     }
-
+    .container-header{
+        /* font-size: 18px; */
+        text-align: center;
+        padding-top: 5px;
+        /* color: #23303E;
+        font-family: 'Fraunces', serif; */
+    }
+    #brand{
+        text-align: center;
+    }
+    .container-paragraph{
+        text-align: center;
+        padding: 5px;
+        font-family: 'Barlow', sans-serif;
+        line-height: 1.8rem;
+    }
   }
