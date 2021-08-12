@@ -25,7 +25,7 @@
     position: relative;
 }
 .navbar{
-    padding-top: 20px;
+    padding-top: 30px;
     background: none;
 }
 .navbar h1{
@@ -44,9 +44,16 @@
 }
 .navbar .right-menu{
     float: right;
+    font-weight: 480px;
 }
 .navbar .left-menu{
     float: left;
+}
+#contact{
+    color: #23303E;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
 }
 .header-message{
     margin-top: 0;
